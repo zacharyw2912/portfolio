@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zachary White's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/46712c7b9e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav>
+        <h1>Zachary White  </h1>
+        <div class="container">
+            <div class="hamburger" id="hamburger">
+                ☰
+            </div>
+            <ul id="nav-links">
+                <li class="about"><a href='#home'>About</a></li>
+                <li class="projects"><a href='#projects'>Projects</a></li>
+                <li class="skills"><a href='#skills'>Skills</a></li>
+                <li class="contact"><a href="Zachary_White_CV.pdf" target="_blank">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="about-content">
+            <div class="home-content">
+                <div class="intro">
+                    <h1>Hey, I'm Zachary White!</h1>
+                </div>
+                <img class="me" src="placeholder.jpg" alt="me" id="imgClickAndChange" onclick="changeImage()"
+                    style="width:15em; height:15em;">
+                <div class="home-text">
+                    <p>I'm Zachary White, a third year computer science undergraduate studying at the University of
+                        Northampton. I am incredibly passionate about technology and softwarea development. I'm well
+                        equipped with the necessary knowledge and skills, an eager to start this chapter of my
+                        life. <br><br>
+                        
+                        Outside of my academics, I enjoy fitness, cooking, gaming and building computers. <br><br></p>
+                    <p id="timezone"></p>
+                    <p id="current-time"></p>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/zachary-white-84b9a5274/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/zacharyw2912" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+    </section>
+
+    <section id="projects">
+        <h1> Projects</h1>
+        <ul id="project_links">
+            <li>
+                <a href="https://github.com/zacharyw2912/Motion-Tracking-WIP-" target="_blank">
+                    <img src="motion.png" alt="Motion Detection" style="height:15em; width:15em;">
+
+                    <h2>Motion Detection</h2> 
+                    <p>A python program that allows the user to import videos, and have the motion highlighted</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/zacharyw2912/Python-Questions" target="_blank">
+                    <img src="python.svg" alt="Python Projects" style="height:15em; width:15em;">
+                    <h2>Python Programs</h2> 
+                    <p>3 Python programs that were made for a University Assignment</p> 
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/zacharyw2912/Assignment-2" target="_blank">
+                    <img src="game.png" alt="Web Game" style="height:15em; width:15em;">
+                    <h2>Tank Web Game</h2> 
+                    <p>A web game that I was working on for a university assignment</p> 
+                </a>
+            </li>
+            <li>
+                <a href="Technical_report.pdf" target="_blank">
+                    <img src="Java.png" alt="Java" style="height:15em; width:15em;">
+                    <h2>Java Technical Report</h2> 
+                    <p>A technical report for a e-commerce Java platform, with wireframes and analysius</p> 
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/RobertGDO/Roberts-Motors" target="_blank">
+                    <img src="pph.png" alt="PHP" style="height:15em; width:15em;">
+                    <h2>E-Commerce car dealer</h2> 
+                    <p>A group project that I participated in, creating a car dealership website using HTML,CSS,JS + PHP</p> 
+                </a>
+            </li>
+        </ul>
+    </section>
+    
+    
+
+    <section id="skills">
+        <h1>Skills </h1>
+            <div class="skills-icons">
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css"></i>
+                    <i class="fa-brands fa-php"></i>
+        </div>
+    </section>
+
+
+    <section id="footer">
+        <div class="about-content">
+            <p>© 2025 Zachary White. All Rights Reserved.</p>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
