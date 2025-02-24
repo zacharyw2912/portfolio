@@ -1,15 +1,3 @@
-let lastScrollTop = 0;
-window.addEventListener("scroll", function() {
-    let nav = document.querySelector("nav");
-    let scrollTop = window.scrollY;
-    
-    if (scrollTop > lastScrollTop) {
-        nav.classList.add("hidden"); // Hide navbar when scrolling down
-    } else {
-        nav.classList.remove("hidden"); // Show navbar when scrolling up
-    }
-    lastScrollTop = scrollTop;
-});
 
     function updateTime() {
 

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,9 +13,12 @@
     <nav>
         <h1>Zachary White  </h1>
         <div class="container">
+            <!-- Hamburger icon that will only be visible in mobile view-->
             <div class="hamburger" id="hamburger">
                 ☰
             </div>
+
+            <!-- Links for each section required in the nav bar-->
             <ul id="nav-links">
                 <li class="about"><a href='#home'>About</a></li>
                 <li class="projects"><a href='#projects'>Projects</a></li>
@@ -32,20 +34,23 @@
                 <div class="intro">
                     <h1>Hey, I'm Zachary White!</h1>
                 </div>
-                <img class="me" src="placeholder.jpg" alt="me" id="imgClickAndChange" onclick="changeImage()"
-                    style="width:15em; height:15em;">
+                <img class="me" src="placeholder.jpg" alt="me"
+                    style="width:15em; height:15em;"> <!-- Applying some direct styling to the image-->
                 <div class="home-text">
+                    <!-- Introduction text-->
                     <p>I'm Zachary White, a third year computer science undergraduate studying at the University of
                         Northampton. I am incredibly passionate about technology and softwarea development. I'm well
                         equipped with the necessary knowledge and skills, an eager to start this chapter of my
                         life. <br><br>
                         
                         Outside of my academics, I enjoy fitness, cooking, gaming and building computers. <br><br></p>
-                    <p id="timezone"></p>
+
+                        <!-- Displays the current time-->
                     <p id="current-time"></p>
                 </div>
 
                 <div class="social-links">
+                    <!-- Links to my relevant social medias-->
                     <a href="https://www.linkedin.com/in/zachary-white-84b9a5274/" target="_blank">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
@@ -58,6 +63,7 @@
 
     <section id="projects">
         <h1> Projects</h1>
+        <!-- Links to projects that I have worked on, with a brief description-->
         <ul id="project_links">
             <li>
                 <a href="https://github.com/zacharyw2912/Motion-Tracking-WIP-" target="_blank">
@@ -101,6 +107,7 @@
     
 
     <section id="skills">
+        <!-- Showing what programmming languages I know-->
         <h1>Skills </h1>
             <div class="skills-icons">
                     <i class="fa-brands fa-java"></i>
@@ -118,6 +125,7 @@
         </div>
     </section>
 
+    <!-- Running the js-->
     <script src="main.js"></script>
 
 </body>
