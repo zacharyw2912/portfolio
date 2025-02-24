@@ -11,15 +11,6 @@ window.addEventListener("scroll", function() {
     lastScrollTop = scrollTop;
 });
 
-    function changeImage() {
-        var image = document.getElementById("imgClickAndChange"); // Use the ID of the image to select it
-        if (image.src.includes("placeholder.jpg")) {
-            image.src = "me.jpg"; // Change to another image
-        } else {
-            image.src = "placeholder.jpg"; // Change back to the original image
-        }
-    }
-
     function updateTime() {
 
         const currentTime = new Date().toLocaleTimeString();
